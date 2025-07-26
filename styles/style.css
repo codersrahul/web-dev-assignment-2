@@ -23,48 +23,48 @@ nav {
   align-items: center;
 }
 
-.nav-manu {
+.nav-menu {
   display: flex;
   align-items: center;
 }
 
-.nav-manu a {
+.nav-menu a {
   margin-right: 16px;
   text-decoration: none;
   color: rgb(37, 36, 50);
 }
-.banner {
+.hero-banner {
   display: flex;
   align-items: center;
   margin: 120px 0px;
 }
-.banner-text {
+.hero-text {
   width: 50%;
 }
 
-.banner-text h1 {
+.hero-text h1 {
   font-size: 60px;
   font-weight: 700;
   color: rgb(0, 0, 0);
 }
-.banner-title {
+.hero-highlight {
   color: rgb(233, 90, 8);
 }
 
-.banner-text p {
+.hero-text p {
   font-size: 18px;
   margin-top: 14px;
   color: rgba(0, 0, 0, 0.5);
 }
-.banner-img {
+.hero-img {
   width: 50%;
 }
 
-.cards-title {
+.section-heading {
   text-align: center;
   margin: 40px 0px;
 }
-.cards-title h3 {
+.section-heading h3 {
   font-size: 50px;
   font-weight: 700;
   color: rgb(0, 0, 0);
@@ -72,35 +72,35 @@ nav {
 .title-color {
   color: rgb(233, 90, 8);
 }
-.cards-title p {
+.section-heading p {
   font-size: 22px;
   margin-top: 16px;
   color: rgba(0, 0, 0, 0.5);
 }
 
-.cards {
+.product-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 20px;
 }
 
-.card-details {
+.product-info {
   text-align: center;
 }
-.card-details p {
+.product-info p {
   font-size: 24px;
   font-weight: 500;
   margin-top: 30px;
   color: rgb(17, 17, 17);
 }
 
-.card-details h3 {
+.product-info h3 {
   font-size: 30px;
   font-weight: 700;
   margin: 20px 0px 30px 0px;
   color: rgb(17, 17, 17);
 }
-.btn {
+.btn-primary {
   font-weight: 600;
   color: rgb(255, 255, 255);
   width: 100%;
@@ -108,7 +108,7 @@ nav {
   border: none;
   background-color: rgb(233, 90, 8);
 }
-.flower-lover {
+.lover-section {
   display: flex;
   gap: 60px;
   margin: 200px 0px 100px 0px;
@@ -121,25 +121,25 @@ nav {
 .lover-text {
   /* width: 50%; */
 }
-.badge img {
+.trusted-badge img {
   width: 250px;
 }
-.badge {
+.trusted-badge {
   position: absolute;
   left: 250px;
   top: -50x;
   transform: translate(-50%, -50%);
 }
-.flower-lover h1 {
+.lover-section h1 {
   font-size: 50px;
   font-weight: 700;
   color: rgb(0, 0, 0);
 }
-.flower-lover ul {
+.lover-section ul {
   font-size: 18px;
   color: rgba(0, 0, 0, 0.5);
 }
-.flower-lover ul li {
+.lover-section ul li {
   margin: 20px 0px;
 }
 
@@ -152,7 +152,7 @@ nav {
   font-weight: 700;
   color: rgb(0, 0, 0);
 }
-.latest-color {
+.deals-section-color {
   color: rgb(233, 90, 8);
 }
 .deals-text p {
@@ -272,7 +272,7 @@ footer {
 }
 
 @media (max-width: 600px) {
-  .nav-link {
+  .nav-links {
     display: none;
   }
 
@@ -287,10 +287,10 @@ footer {
   .cards {
     grid-template-columns: repeat(2, 1fr);
   }
-  .badge {
+  .trusted-badge {
     display: none;
   }
-  .flower-lover {
+  .lover-section {
     flex-direction: column;
   }
   .lover-img,
